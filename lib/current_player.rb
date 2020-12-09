@@ -1,7 +1,7 @@
 def turn_count(board)
-  T = 0
+  turn_count = 0
   board.each do |player|
     if player == "X" || player == "O"
-      T += 1
+      turn_count += 1
     end
   end
